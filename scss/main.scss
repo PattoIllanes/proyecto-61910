@@ -1,0 +1,17 @@
+//import de arch base
+@import "./base";
+
+
+//import de componentes
+@import"./components/botones";
+@import"./components/header";
+@import"./components/components-varios";
+
+
+//import de paginas //
+@import"./pages/_actualidad";
+@import"./pages/_carrera";
+@import"./pages/_index";
+@import"./pages/_instituciones";
+@import"./pages/_logros";
+

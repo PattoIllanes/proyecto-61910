@@ -1,0 +1,171 @@
+header h2 {
+    margin: 2px;
+    text-align: center;
+
+    p {
+        color: white;
+
+        li {
+            color: white;
+
+        }
+    }
+}
+
+
+l {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+header div img {
+    width: 450px;
+
+}
+
+body {
+    background-color: black;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section h2 {
+    text-align: center;
+    color:$color-principal;
+}
+
+.video1 {
+    width: 100%;
+}
+
+main section div {
+    text-align: end
+}
+
+main section div a {
+    color: white;
+
+}
+
+footer div {
+    color:$color-principal;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width:768px) {
+    header {
+        display: flex;
+        flex-direction: repeat(3, 1fr);
+
+
+
+
+    }
+
+    /************** vista tablet o pc **********/
+
+    header section nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3rem;
+
+    }
+
+    header div img {
+        display: flex;
+        mask-repeat: inherit;
+
+    }
+
+
+    .parrafos {
+        display: flex;
+        padding: 10px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .imagen1 {
+        display: flex;
+        width: 350px;
+    }
+
+
+
+    .parrafo1 {
+        display: flex
+    }
+
+    .section1 {
+        display: flex;
+        align-items: center;
+    }
+
+    ///cvista tablet o pc///
+    /// 
+    /// 
+    /// 
+    /// 
+
+    @media (min-width:768px) {
+        header {
+            display: flex;
+            flex-direction: repeat(3, 1fr);
+
+
+        }
+    }
+
+}
+
+header section nav ul {
+    display: flex;
+justify-content:space-evenly;
+gap: 3rem;
+
+}
+
+header div img {
+    display:flex;
+    mask-repeat: inherit;
+
+}
+
+
+.parrafos {
+    display: flex;
+    padding: 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.imagen1{
+    display: flex;
+width: 350px;
+}
+
+
+
+.parrafo1 {
+    display: flex
+   
+}
+
+.section1{
+display: flex;
+align-items: center;
+}
+

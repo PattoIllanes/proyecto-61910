@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+/** ----------------header----------------------**/
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+
+}
+
+
+.titulo01 {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.titulo2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h2 {
+    margin: 2px;
+    text-align: center;
+
+}
+
+header p {
+    color: white;
+}
+
+header li {
+    color: rgb(255, 255, 255);
+}
+
+header div img {
+    width: 450px;
+
+}
+
+
+.parrafos {
+    display: none;
+}
+
+.botones {
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+header section nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin-top: 20px;
+}
+.imagen1 {
+margin-top: 20px;
+    width: 450px;
+}
+/*...........body,,,,,,,,,*/
+body {
+    background-color: black;}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section h2 {
+    text-align: center;
+    color: gray;
+}
+
+.video1 {
+    width: 100%;
+}
+
+main section div {
+    text-align: end
+}
+
+main section div a {
+    color: white;
+
+}
+
+.formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 20px;
+}
+
+.titulo2 {
+    color: gray;
+    margin-top: 40px;
+}
+footer div {
+color: gray;
+text-align: end;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width:768px) {
+    header{
+        display: flex;
+        flex-direction: repeat(3,1fr);
+
+        
+    
+
+    }
+    
+    /************** vista tablet o pc **********/
+    
+    header section nav ul {
+        display: flex;
+    justify-content:space-evenly;
+gap: 3rem;
+
+    }
+    
+    header div img {
+        display:flex;
+        mask-repeat: inherit;
+    
+    }
+
+
+    .parrafos {
+        display: flex;
+        padding: 10px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .imagen1{
+        display: flex;
+    width: 350px;
+    }
+
+    
+
+    .parrafo1 {
+        display: flex
+       
+    }
+
+.section1{
+    display: flex;
+    align-items: center;
+}
+
+}
+
+
+/*****************************PAGINA CARRERA************************/
+
+.parrafos4{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+padding: 20px 20px 20px 20px;
+
+}
+
